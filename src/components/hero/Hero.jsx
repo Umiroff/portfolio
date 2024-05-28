@@ -1,13 +1,13 @@
 import React from 'react'
-import './Hero.css'
+import '../../sass/hero.scss'
 
 function Hero() {
   return (
     <>
         <div className='hero'>
-            <div>
-                <h3>Hi, I'm Islombek Umirov,</h3>
-                <p>I am interested in starting career in IT. You might think I do not know so many programming languages, but it does not mean I cannot learn them.</p>
+            <div className='hero__box'>
+                <h3 className='hero__box__title'>Hi, I'm Islombek Umirov,</h3>
+                <p className='hero__box__text'>I am interested in starting career in IT. You might think I do not know so many programming languages, but it does not mean I cannot learn them.</p>
             </div>
         </div>
     </>

@@ -1,0 +1,106 @@
+.about{
+    width: 1200px;
+    padding: 50px 100px 50px;
+
+    &__skill1{
+        width: 1000px;
+        border-top: 2px solid whitesmoke;
+        border-bottom: 2px solid whitesmoke;
+        font-size: 100px;
+        text-align: center;
+        position: relative;
+
+        &__text{
+            animation: textplayer 1.2s;
+            cursor: pointer;
+        }    
+        &__img{
+            display: none;
+        }
+    }
+
+    &__skill2{
+        width: 1000px;
+        border-top: 2px solid whitesmoke;
+        border-bottom: 2px solid whitesmoke;
+        font-size: 100px;
+        text-align: center;
+        position: relative;
+
+        &__text{
+            animation: textplayer2 1.2s;
+            cursor: pointer;
+        }
+
+        &__img{
+            display: none;
+        }
+    }
+    &__skill3{
+        width: 1000px;
+        border-top: 2px solid whitesmoke;
+        border-bottom: 2px solid whitesmoke;
+        font-size: 100px;
+        text-align: center;
+        position: relative;
+
+        &__text{
+            animation: textplayer3 1.2s;
+            cursor: pointer;
+        }
+
+        &__img{
+            display: none;
+        }
+    }
+}
+
+.about__skill1:hover .about__skill1__img{
+    display: block;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    z-index: 2;
+    animation: fadeIn 0.8s;
+    top: -150px;
+    left: 200px;
+}
+.about__skill2:hover .about__skill2__img{
+    display: block;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    z-index: 2;
+    animation: fadeIn 0.8s;
+    top: -150px;
+    left: 200px;
+}
+.about__skill3:hover .about__skill3__img{
+    display: block;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    z-index: 2;
+    animation: fadeIn 0.8s;
+    top: -150px;
+    left: 200px;
+}
+
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 100;}
+}
+
+
+@keyframes textplayer {
+    0%{margin-left: -400px;}
+    100%{margin-left: 0px;}
+}
+@keyframes textplayer2 {
+    0%{margin-right: -400px;}
+    100%{margin-right: 0px;}
+}
+@keyframes textplayer3 {
+    0%{margin-left: -400px;}
+    100%{margin-left: 0px;}
+}

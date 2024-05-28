@@ -1,0 +1,10 @@
+
+@import "variable";
+@import "fonts";
+@import "mixins";
+@import "reset";
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
